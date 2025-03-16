@@ -4,15 +4,15 @@ by YOUR NAME HERE
 
 ---
 
-This is a programming project for **NCEA Level 2**, standard **91896**.
+This is a programming project for **NCEA Level 3**, standard **91906**.
 
-The project is written in the [Kotlin](https://kotlinlang.org) programming language and demonstrates a number of **advanced programming techniques**, for example:
-- modifying data stored in **collections**
-- storing **multi-dimensional data** in collections
-- creating **functions** that use parameters and/or return values
-- responding to events from a **GUI**
-- using non-trivial **string manipulation**
-- using additional **non-core libraries**
+The project is written in the [Kotlin](https://kotlinlang.org) programming language and demonstrates a number of complex programming techniques, for example:
+- programming a graphical user interface (GUI)
+- reading from, or writing to, files
+- object-oriented programming (OOP) classes and objects
+- self-defined types
+- using non-core API, library or framework 
+- using complex data structures (e.g. stacks, queues, trees)
 
 ---
 

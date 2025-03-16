@@ -1,6 +1,6 @@
-# Programming Project Template - Level 2
+# Programming Project Template - Level 3
 
-A template for an NCEA Level 2 programming project
+A template for an NCEA Level 3 programming project
 
 ---
 
