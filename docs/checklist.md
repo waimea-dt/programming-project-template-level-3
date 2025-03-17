@@ -9,14 +9,15 @@ This checklist can be used to gauge progress towards different levels of success
 ### Program Functionality
 
 The game functions correctly and meets the specification:
-- [ ] The game is playable
-- [ ] The game has a GUI
-- [ ] The instructions for the game are available via the GUI
-- [ ] Player provides inputs to the game via the GUI (e.g. moves, actions)
-- [ ] The current state of the game is shown in the GUI after each player input
-- [ ] The player can move between multiple locations
-- [ ] The player has a clear purpose they can attempt to achieve
-- [ ] A win / end / loss state is possible
+- [ ] The game is **playable**
+- [ ] The game has a **GUI** with a range of controls
+- [ ] The **instructions** for the game are available via the GUI
+- [ ] Player provides game **inputs via the GUI** (e.g. moves, actions)
+- [ ] The **current status** of the game is **shown in the GUI**, updated each player input
+- [ ] The game is based on a **non-trivial map**
+- [ ] The player can **move between locations**
+- [ ] The player has a **clear purpose** they can attempt to achieve
+- [ ] A **win / end / loss state** is possible
 
 ### Program Code
 
@@ -24,14 +25,13 @@ The program stores data using:
 - [ ] **Variables** of at least two types (e.g. int, text, boolean)
 
 The program structure:
+- [ ] Defines and implements a **graphical user interface (GUI)**
 - [ ] Makes use of user-defined OOP **classes** from which **objects** are instantiated
 - [ ] Uses **functions** / **methods** to break up the code logically
 - [ ] Contains **sequences** of instructions
 - [ ] Uses **conditional** instructions to control the program flow
 - [ ] Uses program **branches** (if...else, when, etc.)
 - [ ] Uses **iteration** (loops) to repeat things (for, while, etc.)
-
-[//]: # (TODO: FINISH THIS!)
 
 ### Program Documentation
 
@@ -45,10 +45,10 @@ The program code:
 The program has been tested and there is documented evidence that:
 - [ ] The game is **fully functional**, showing testing of:
   - [ ] game setup
-  - [ ] player moves
-  - [ ] players taking turns
+  - [ ] player movement
+  - [ ] other player actions
   - [ ] scoring (if any)
-  - [ ] players winning
+  - [ ] player win / lose states
   - [ ] final feedback (if appropriate)
 - [ ] **Valid (expected) data** has been used to test **all data inputs**
 - [ ] Where tests have failed, **fixes** are discussed and **tests re-run**
@@ -60,19 +60,33 @@ The program has been tested and there is documented evidence that:
 ### Program Code
 
 The program stores data using variables, where:
-- [ ] They are **scoped appropriately** (global or local to a function)
+- [ ] Variable **names are well-chosen** (relating to their purpose)
+- [ ] Variable names **begin with lowercase**
+- [ ] Naming is consistent, either **camelCase or snake_case**
+- [ ] Variables are **scoped appropriately** (global or local to a function)
 - [ ] **Global** variables are only used if **genuinely needed**
-- [ ] Variable **names are well-chosen** (relating to their purpose) 
+
+The program uses OOP classes and objects appropriately, where:
+- [ ] OOP class **names are well-chosen**, relating to their functionality
+- [ ] OOP class names **begin with uppercase**
+- [ ] OOP classes contain **well-chosen data fields**
+- [ ] OOP classes contain **well-chosen methods**
 
 The program uses functions appropriately, where:
-- [ ] The function **names are well-chosen**, relating to their functionality 
-- [ ] Has at least one function that uses **parameters** to pass data into it
-- [ ] Has at least one function provides a **return value** to the calling code
+- [ ] Function **names are well-chosen**, relating to their functionality 
+- [ ] Functions use **parameters** to pass data into them as needed
+- [ ] Functions provide a **return value** to the calling code if needed
+
+### Game GUI
+
+The game GUI:
+- [ ] Adheres to **common conventions** (e.g. buttons look like buttons, etc.)
 
 ### Program Documentation
 
-The program code comments:
-- [ ] Accurately describe the **function and behaviour** of the code:
+The program code is well-commented:
+- [ ] **JavaDoc Block comments** are used at the top of each **file** and **function**
+- [ ] Comments accurately describe the **function and behaviour** of the code:
   - [ ] Defining the **purpose** of functions / key blocks of code
   - [ ] Explaining the **reason** (the '**why**') of key parts of the code
   - [ ] Defining function **parameters** and/or **return values**
@@ -99,7 +113,15 @@ Program flexibility and maintainability is aided by good program structure:
 - [ ] Conditions, branching, loops and functions are used **effectively**
 - [ ] Procedures are **efficient** (minimal iterations, etc.)
 - [ ] **Minimal duplication of code** (instead using loops, or having multiple calls to a single function)
+- [ ] OOP classes are **well-chosen and logical**, with a clearly defined purpose
 - [ ] Functions are **well-chosen and logical**, with a clearly defined purpose
+- [ ] The classes and functions chosen represent a **logical decomposition** of the task
+
+### Game GUI
+
+The game GUI:
+- [ ] Is **well laid out** with care and attention paid to details
+- [ ] Gives a **good uer experience (UX)**
 
 ### Program Documentation
 
