@@ -1,6 +1,6 @@
 # Results of Testing
 
-The test results show the actual outcome of the testing, following the [Test Plan](test-plan)
+The test results show the actual outcome of the testing, following the [Test Plan](test-plan.md)
 
 ---
 
