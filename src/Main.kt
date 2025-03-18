@@ -2,12 +2,12 @@
  * =====================================================================
  * Programming Project for NCEA Level 3, Standard 91906
  * ---------------------------------------------------------------------
- * Project Name:   PROJECT NAME HERE
- * Project Author: PROJECT AUTHOR HERE
- * GitHub Repo:    GITHUB REPO URL HERE
+ * Project Name:   Spooky Mansion Game
+ * Project Author: Steve Copley
+ * GitHub Repo:    https://github.com/waimea-dt/level-3-assessment
  * ---------------------------------------------------------------------
  * Notes:
- * PROJECT NOTES HERE
+ * This game involves blah...
  * =====================================================================
  */
 
