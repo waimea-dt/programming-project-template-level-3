@@ -1,4 +1,4 @@
-# NCEA Level 2 Programming Project Instructions
+# NCEA Level 3 Programming Project Instructions
 
 | Standard | Version | Level | Credits |
 |----------|---------|-------|---------|
@@ -17,7 +17,7 @@
 
 ## Introduction
 
-You are to create a simple, interactive computer game with a graphical user interface (GUI), where the player can move between locations in a map, exploring with a particular purpose in mind: discovering the exit, finding lost items, etc.  
+You are to create a simple, interactive computer game with a graphical user interface (GUI), where the player can move between locations in a map, exploring with a particular purpose in mind: discovering the exit, finding lost items, etc.
 
 ![map.png](images/map.png)
 
@@ -42,7 +42,7 @@ The game that you program should:
 
 1. Be for **one player** only
 
-2. Involve movement within a world that is **defined by a logical map**. The map does not have to be visible to the user, but player movements should be defined by map locations and connections. 
+2. Involve movement within a world that is **defined by a logical map**. The map does not have to be visible to the user, but player movements should be defined by map locations and connections.
 
 3. Have a **clear purpose** for the player to aim for / achieve.
 
@@ -53,9 +53,9 @@ The game that you program should:
 6. Provide a **graphical user interface (GUI)** that is **well-designed and easy-to-use**. The interface should:
    - Be **intuitive** to use for the player
    - Show the **status** of the game as it progresses (e.g. player location, inventory, etc.)
-   - **Prompt** players for input as needed 
+   - **Prompt** players for input as needed
    - Respond to **player actions** (e.g. mouse clicks, key presses)
-   - Provide **feedback** on the result of player actions / moves 
+   - Provide **feedback** on the result of player actions / moves
    - Give an **overall summary** at the end-of-play (e.g. success / failure, score, time, etc.)
 
 
@@ -78,7 +78,7 @@ Use advanced programming techniques to develop a computer program means:
    - Uses **sequence** - a series of instructions
    - Uses **selection** (branches) - making decisions (e.g. if...then, when, etc.)
    - Uses **iteration** (loops) - repeating things
-   - Takes **input** from the user 
+   - Takes **input** from the user
    - Produces **output** for the user to read
 
 2. You need to use at least two 'complex' techniques, for example:
@@ -86,10 +86,10 @@ Use advanced programming techniques to develop a computer program means:
    - Reading from, or writing to, **files** or other storage
    - **Object-oriented programming (OOP)** using user-defined class(es) and objects
    - Using **user-defined types**
-   - Using additional **non-core libraries** 
+   - Using additional **non-core libraries**
    - Using **complex data structures** (e.g. stacks, queues, trees)
 
-3. You need to set out your **program code clearly** and document the program with **comments** 
+3. You need to set out your **program code clearly** and document the program with **comments**
 
 4. You need to **test** and **debug** your program to ensure that it works with **expected** (valid) data values (this needs to be documented)
 
